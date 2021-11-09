@@ -1,3 +1,7 @@
+.content {
+    min-height: calc(100vh - 80px);
+}
+
 .homepage-welcome-content {
     background-image: url("/src/components/images/bg1.png");
     height: 500px;
@@ -26,16 +30,30 @@
     font-style: normal;
     font-variant: small-caps;
     text-transform: none;
+    transition: 0.2s;
 }
 
 .welcome-subtitle {
+    font-weight: bold;
+    text-align: center;
     margin: 0 auto;
     text-shadow: -1px 0px 8px rgba(62, 131, 183, 1);
-    font-size: 15px;
-    background-color: rgba(57, 65, 102, 0.3);
+    font-size: 22px;
     width: 1080px;
+    transition: 0.2s;
+    border-radius: 10px;
+    background-color: rgba(62, 131, 183, 0.8);
+    padding: 20px;
+
+}
 
 
+.welcome-content:hover > *{
+    text-shadow: #8a0b00 1px 0 10px;
+}
+
+.art-cards-wrapper {
+    padding-bottom: 100px;
 }
 
 .art-cards-content {
@@ -50,4 +68,20 @@
 
 .card {
     width: 18rem;
+    overflow: hidden;
+
 }
+
+
+.card-img{
+    overflow: hidden;
+    max-height: 240px;
+    transition: 0.7s;
+}
+
+
+.pow-by-icons {
+    color: black;
+}
+
+

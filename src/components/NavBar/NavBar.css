@@ -1,10 +1,39 @@
 .navbar-logo{
-    margin: 0 auto;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
 
+.container-fluid {
+    min-height: 100px;
+}
+
+
+.nav-search-button {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+
+}
+
+.search-bar {
+    margin: 50px;
+}
+
+
+.navbar-links {
+    padding-right: 100px;
+}
+
+
+.logo-navigation  {
+    height: 100px;
+    margin: 0 auto;
 }
 
 .nav-link {
     color: #8fa6bf;
+    font-size: 20px;
 }
 
 .nav-link:hover {
