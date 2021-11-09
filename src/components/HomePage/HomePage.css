@@ -2,6 +2,13 @@
     min-height: calc(100vh - 80px);
 }
 
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+
+
+
+}
 .homepage-welcome-content {
     background-image: url("/src/components/images/bg1.png");
     height: 500px;
@@ -37,7 +44,7 @@
     font-weight: bold;
     text-align: center;
     margin: 0 auto;
-    text-shadow: -1px 0px 8px rgba(62, 131, 183, 1);
+    text-shadow: 2px 2px 0px rgba(62, 131, 183, 1);
     font-size: 22px;
     width: 1080px;
     transition: 0.2s;
@@ -49,7 +56,9 @@
 
 
 .welcome-content:hover > *{
-    text-shadow: #8a0b00 1px 0 10px;
+    text-shadow: rgba(138, 11, 0,0.5)  -5px -5px 0.8px ;
+    color: #ffffff;
+
 }
 
 .art-cards-wrapper {
@@ -80,8 +89,5 @@
 }
 
 
-.pow-by-icons {
-    color: black;
-}
 
 
