@@ -30,9 +30,11 @@
 
 
 .school-init {
-   display: flex;
+    display: flex;
     justify-content: space-around;
-    box-shadow: 0px 9px 16px 10px rgba(138,11,0,0.72);
+    margin: 0 auto;
+    width: 1280px;
+    box-shadow: 0px 9px 16px 10px rgba(138, 11, 0, 0.72);
 }
 
 .school-photo {
@@ -49,18 +51,23 @@
     justify-content: space-between;
 }
 
-.our-contacts{
+.our-contacts {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 1480px;
+    margin: 0 auto;
     padding-top: 50px;
     padding-right: 100px;
     padding-left: 100px;
 }
 
-.school-contacts-cards{
+.school-contacts-cards {
     display: flex;
+    width: 1280px;
+    margin: 0 auto;
     justify-content: space-between;
+    border-bottom: 1px solid black;
 
 }
 
@@ -69,25 +76,44 @@
     justify-content: center;
     font-weight: bold;
     font-size: 30px;
-    text-shadow: rgba(138, 11, 0,0.5)  -2px -2px 0.8px;
+    text-shadow: rgba(138, 11, 0, 0.5) -2px -2px 0.8px;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .contacts-map {
+    position: relative ;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    width: 1480px;
+    margin: 0 auto;
     padding: 100px;
-    padding-top: 50px;
+    padding-top: 100px;
 
 }
 
+.contacts-skeleton-block {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translateY(-60%);
+}
+
+.contacts-skeleton-block img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
 .map {
-    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
     border: black solid 5px;
     border-radius: 30px;
-    box-shadow: 0px 9px 16px 10px rgba(138,11,0,0.72);
+    box-shadow: 0px 9px 16px 10px rgba(138, 11, 0, 0.72);
     transition: 0.5s;
+
 }
 
 .map:hover {
@@ -104,3 +130,4 @@
 .card {
     overflow: visible;
 }
+

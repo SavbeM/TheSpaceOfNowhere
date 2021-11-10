@@ -4,5 +4,20 @@
 
 .pow-by-icons {
     color: #8fa6bf;
-    text-decoration-line: underline;
+    text-decoration-line: none;
+    border-bottom: #4B4C4B 1px solid;
+}
+
+.pow-by-icons:hover {
+    color: #8a0b00;
+}
+
+.copyright-link {
+    color: #8fa6bf;
+    text-decoration-line: none;
+    border-bottom: #4B4C4B 1px solid;
+}
+
+.copyright-link:hover {
+    color: #8a0b00;
 }
