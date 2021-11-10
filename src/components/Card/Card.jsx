@@ -1,7 +1,9 @@
 import React, {useState} from "react";
 import "./Card.css"
 import Modal from "react-bootstrap/Modal";
-
+import Button from "react-bootstrap/cjs/Button";
+import CloseButton from "react-bootstrap/cjs/CloseButton";
+import {Fancybox, Carousel, Panzoom} from "@fancyapps/ui";
 
 export const Card = (props) => {
     console.log(props.item.productName)
@@ -13,9 +15,11 @@ export const Card = (props) => {
     return (
         <>
             <div className="card">
-                <div className="card-img-block">
-                    <img src={props.item.productPhoto} className="card-img-top"/>
-                </div>
+                <a href={props.item.productPhoto}>
+                    <div className="card-img-block">
+                        <img src={props.item.productPhoto} className="card-img-top"/>
+                    </div>
+                </a>
                 <div className="card-body">
                     <p className="card-text">{props.item.productDesc}</p>
                 </div>
@@ -26,13 +30,19 @@ export const Card = (props) => {
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Body>
-                    <div className='name'>{props.item.productName}</div>
-                    <div className="card-info-content">
-                        <img className='prod-photo' src={props.item.productPhoto}/>
-                        <div className='desc'>{props.item.productDesc}</div>
-                    </div>
-                    <div className="cost">
-                        {props.item.cost}
+                    <CloseButton onClick={handleClose}/>
+                    <div className="card-body">
+                        <div className='name'>{props.item.productName}</div>
+                        <div className="card-info-content">
+                            <img className='prod-photo' src={props.item.productPhoto}/>
+                            <div className='desc'>{props.item.productDesc}</div>
+                        </div>
+                        <div className="cost-block">
+                            <div className="cost">
+                                {props.item.cost}
+                            </div>
+                            <Button variant="success">Buy</Button>{' '}
+                        </div>
                     </div>
                 </Modal.Body>
             </Modal>

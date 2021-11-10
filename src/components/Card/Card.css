@@ -1,6 +1,18 @@
 .prod-photo{
 
     height: 200px;
+    max-width: 50%;
+    padding: 20px;
+
+}
+
+card-info-content{
+    width: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -10,12 +22,20 @@
 
 }
 
+.modal-body {
+    height: 500px;
+    -webkit-box-shadow: 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
 .card-img-block {
     display: flex;
     height: 300px;
     max-height: 300px;
     overflow: hidden;
 }
+
+
 
 .card {
     margin: 50px;
@@ -24,7 +44,7 @@
 
 .show-more {
     box-shadow: 0px 10px 14px -7px #276873;
-    background-color:rgba(62, 131, 183, 1);
+    background-color: #4B4C4B;
     border-radius:8px;
     display:inline-block;
     cursor:pointer;
@@ -52,9 +72,30 @@
     display: flex;
     font-weight: bold;
     justify-content: center;
+    padding: 20px;
+    border-bottom: black 3px solid;
 }
+
+.cost-block {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-top: black solid 3px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.cost {
+    padding-right: 50px;
+    margin: 0 auto;
+}
+
 
 .desc {
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: black solid 3px;
+    height: 150px;
+    padding: 10px;
 }

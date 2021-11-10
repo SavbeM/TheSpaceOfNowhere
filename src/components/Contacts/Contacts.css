@@ -2,11 +2,105 @@
     min-height: calc(100vh - 80px);
 }
 
-.contacts-content {
-    
+.school-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#contacts-img {
+    border-radius: 50%;
+    -webkit-box-shadow: 11px -6px 15px 11px #1C597E;
+    box-shadow: 11px -6px 15px 11px #1C597E;
+    transition: 0.3s linear;
 }
 
 
+#contacts-img:hover {
+    -webkit-box-shadow: -13px -6px 15px 5px #8a0b00;
+    box-shadow: -13px -6px 15px 5px #8a0b00;
+    -moz-transform: scale(1.1) translate(0px, -6px);
+    -webkit-transform: scale(1.1) translate(0px, -6px);
+    -o-transform: scale(1.1) translate(0px, -6px);
+    -ms-transform: scale(1.1) translate(0px, -6px);
+    transform: scale(1.1) translate(0px, -6px);
+}
+
+
+.school-init {
+   display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 9px 16px 10px rgba(138,11,0,0.72);
+}
+
+.school-photo {
+    padding: 40px;
+}
+
+.school-logo {
+    padding: 40px;
+}
+
+.contacts-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.our-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.school-contacts-cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contacts-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: rgba(138, 11, 0,0.5)  -2px -2px 0.8px;
+    padding-bottom: 50px;
+}
+
+.contacts-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    padding-top: 50px;
+
+}
+
 .map {
-    border:0;
+    width: 100%;
+    border: black solid 5px;
+    border-radius: 30px;
+    box-shadow: 0px 9px 16px 10px rgba(138,11,0,0.72);
+    transition: 0.5s;
+}
+
+.map:hover {
+    -webkit-box-shadow: 11px -6px 15px 11px #1C597E;
+    box-shadow: 11px -6px 15px 11px #1C597E;
+}
+
+.card-title {
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.card {
+    overflow: visible;
 }

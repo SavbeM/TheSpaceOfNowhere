@@ -39,7 +39,8 @@ export const HomePage = (props) => {
             cardImg: "https://i.imgur.com/14rlaPj.mp4",
             cardDesk: 'somedeskoasdasddog kdjghikjfrihjpor i cjhjfgpoihj',
             cost: "240 grn"
-        }]
+        },
+        ]
 
 
     return (
