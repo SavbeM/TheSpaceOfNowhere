@@ -7,6 +7,8 @@ import { FiSearch } from 'react-icons/fi';
 
 export let NavBar = (props) => {
 
+    let docWidth = window.width
+
     return (
         <div className="nav-bar">
             <nav className="navbar navbar-dark bg-dark">
@@ -36,10 +38,10 @@ export let NavBar = (props) => {
                         <img className="logo-navigation" src="https://i.imgur.com/esaMyUF.png"/>
                     </div>
                     <div className="navbar-links">
-                        <ul className="nav nav-pills">
-                            <Link className="nav-link" to="/homepage">Home </Link>
-                            <Link className="nav-link" to="/contacts">Contacts</Link>
-                            <Link className="nav-link" to="/about">About</Link>
+                            <ul className="nav nav-pills">
+                                <Link className="nav-link" to="/homepage">Home </Link>
+                                <Link className="nav-link" to="/contacts">Contacts</Link>
+                                <Link className="nav-link" to="/about">About</Link>
                         </ul>
                     </div>
                 </div>

@@ -1,13 +1,18 @@
 .content {
     min-height: calc(100vh - 80px);
+
+
 }
 
 .school-contacts {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 1480px;
+    margin: 0 auto;
     padding-right: 100px;
     padding-left: 100px;
+    background-color: #fff;
 }
 
 #contacts-img {
@@ -69,6 +74,7 @@
     justify-content: space-between;
     border-bottom: 1px solid black;
 
+
 }
 
 .contacts-title {
@@ -90,6 +96,7 @@
     margin: 0 auto;
     padding: 100px;
     padding-top: 100px;
+    background-color: #fff;
 
 }
 

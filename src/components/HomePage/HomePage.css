@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     padding: 50px;
-    text-shadow: 4px 4px 2px rgba(62, 131, 183, 1);
+    text-shadow: 4px 4px 2px rgba(62, 131, 183, 1),1px 1px 1px #000;
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 30px;
     letter-spacing: -1.8px;
@@ -56,7 +56,7 @@
 
 
 .welcome-content:hover > *{
-    text-shadow: rgba(138, 11, 0,0.5)  -4px -4px 0.8px ;
+    text-shadow: rgba(138, 11, 0,0.5)  -4px -4px 0.8px, 2px 2px 2px #000 ;
     color: #ffffff;
 
 }

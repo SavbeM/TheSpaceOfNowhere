@@ -4,6 +4,8 @@ import {Card} from "react-bootstrap";
 
 
 export let About = (props) => {
+
+
     return (
         <div className='content'>
 
