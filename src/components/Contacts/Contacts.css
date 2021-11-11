@@ -17,6 +17,9 @@
 
 #contacts-img {
     border-radius: 50%;
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
     -webkit-box-shadow: 11px -6px 15px 11px #1C597E;
     box-shadow: 11px -6px 15px 11px #1C597E;
     transition: 0.3s linear;
@@ -31,6 +34,7 @@
     -o-transform: scale(1.1) translate(0px, -6px);
     -ms-transform: scale(1.1) translate(0px, -6px);
     transform: scale(1.1) translate(0px, -6px);
+    background-image: url("https://i.imgur.com/5dNluWC.png");
 }
 
 
@@ -65,6 +69,7 @@
     padding-top: 50px;
     padding-right: 100px;
     padding-left: 100px;
+    text-align: center;
 }
 
 .school-contacts-cards {
@@ -94,8 +99,7 @@
     flex-direction: column;
     width: 1480px;
     margin: 0 auto;
-    padding: 100px;
-    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #fff;
 
 }

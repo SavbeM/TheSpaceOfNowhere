@@ -29,25 +29,22 @@ export let About = (props) => {
                     <div id="contacts-card" className="card">
                         <img id="contacts-img" src="https://i.imgur.com/esaMyUF.png" className="card-img-top" alt=""/>
                         <div className="card-body">
-                            <div className="card-title">Mark Selikhov || React Developer</div>
-                            <p className="card-text">Some quick example text to build on the card title and make up
-                                the bulk of the card's content.</p>
+                            <div className="card-title">Mark Selikhov || Programming developer  </div>
+                            <p className="card-text">Mark Selikhov is our teams programming unit, he did all of the web-development, using many different tools such as (умные слова про сайт), as well as creating 3d model for our project</p>
                         </div>
                     </div>
                     <div className="card">
-                        <img id="contacts-img" src="https://i.imgur.com/esaMyUF.png" className="card-img-top" alt=""/>
+                        <img id="contacts-img" src="https://i.imgur.com/5dNluWC.png" className="card-img-top" alt=""/>
                         <div className="card-body">
-                            <div className="card-title">Danyl Danileyko|| Designer</div>
-                            <p className="card-text">Some quick example text to build on the card title and make up
-                                the bulk of the card's content.</p>
+                            <div className="card-title">Danyl Danileyko || Web designer and illustrator</div>
+                            <p className="card-text">Danyleiko Danylo is our projects design developer and creative director, he was responsible for creating business card and flyer designs for school, web site design and illustration, using Adobe Photoshop and Illustrator grafic editors and traditional sketching, and developing projects conceptual part</p>
                         </div>
                     </div>
                     <div className="card">
-                        <img src="https://i.imgur.com/esaMyUF.png" id="contacts-img" className="card-img-top" alt=""/>
+                        <img src="https://i.imgur.com/mwj0Cor.png" id="contacts-img" className="card-img-top" alt=""/>
                         <div className="card-body">
-                            <div className="card-title">Maksym Tsaruk || Director</div>
-                            <p className="card-text">Some quick example text to build on the card title and make up
-                                the bulk of the card's content.</p>
+                            <div className="card-title">Maksym Tsaruk || Leading developer</div>
+                            <p className="card-text"> Maxim Tsaruk is our teams leader and marketing agent, he's share of work consisted of creating work flow presentations and the advertisment video for the school, using such techniques as (умные слова о видосе)</p>
                         </div>
                     </div>
                 </div>
