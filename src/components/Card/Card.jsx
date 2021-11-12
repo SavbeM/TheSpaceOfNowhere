@@ -15,9 +15,9 @@ export const Card = (props) => {
     return (
         <>
             <div className="card">
-                <a href={props.item.productPhoto}>
+                <a href={props.item.link}>
                     <div className="card-img-block">
-                        <img  src={props.item.productPhoto} className="card-img-top"/>
+                        <img  src={props.item.cardImg} className="card-img-top"/>
                     </div>
                 </a>
                 <div className="card-body">

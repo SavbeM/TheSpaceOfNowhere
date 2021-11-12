@@ -31,19 +31,16 @@ export let Footer = (props) => {
 
                     </div>
                     <div className="col-md-3 mb-md-0 mb-3">
-                        <h5 className="text-uppercase">Links</h5>
+                        <h5 className="text-uppercase">Contacts</h5>
                         <ul className="list-unstyled">
                             <li>
-                                <a className="pow-by-icons" href="#!">Link 1</a>
+                                <a className="pow-by-icons" href="https://www.instagram.com/cpt_prod/">Intagram</a>
                             </li>
                             <li>
-                                <a className="pow-by-icons" href="#!">Link 2</a>
+                                <a className="pow-by-icons" href="https://github.com/SavbeM">GitHub</a>
                             </li>
                             <li>
-                                <a className="pow-by-icons" href="#!">Link 3</a>
-                            </li>
-                            <li>
-                                <a className="pow-by-icons" href="#!">Link 4</a>
+                                    <a className="pow-by-icons" href="https://pin.it/3oTBnp7">Pinterest</a>
                             </li>
                         </ul>
 

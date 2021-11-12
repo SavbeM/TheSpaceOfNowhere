@@ -11,26 +11,25 @@ export let About = (props) => {
 
             <div className='content-block'>
                 <div className="about-skeleton-block">
-                    <img className="about-skeleton" src="https://i.imgur.com/CqyWoeL.png" border="0"/>
+                    <img className="about-skeleton" src="https://i.imgur.com/ASeA75h.png" border="0"/>
                 </div>
                 <div className='about-title'>
                     The Space Of Nowhere
                 </div>
                 <div className="about-subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ex mauris, tempus sit amet mauris quis,
-                    aliquet pulvinar sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Aliquam erat volutpat. Sed quis diam est. Ut luctus rhoncus turpis, ac tincidunt
-                    lacus sagittis a. Pellentesque habitant morbi tristique
+                    The Space Of Nowhere is a project first and foremost aimed at people who have the desire to create and monetize their creativity. The newly developed NFT technology has opened up the unmatched freedom and ease in monetizing your art. So our Input in this community is a way to leave your mark in the history of art and the blockchain at the same time.
+                    We provide comfortable and welcoming platform for any of your needs of sharing, tracking and communication. Take care of the transition of items and updating collections.
+                    Our projects coding department is working on the problems or suggestions you may have had or have right now, so feel free to contact any member of our team.
                 </div>
             </div>
             <div className="our-contacts">
                 <div className="contacts-title">Our contacts</div>
                 <div className="school-contacts-cards">
                     <div id="contacts-card" className="card">
-                        <img id="contacts-img" src="https://i.imgur.com/esaMyUF.png" className="card-img-top" alt=""/>
+                        <img id="contacts-img" src="https://i.imgur.com/DwBDUK5.png" className="card-img-top" alt=""/>
                         <div className="card-body">
                             <div className="card-title">Mark Selikhov || Programming developer  </div>
-                            <p className="card-text">Mark Selikhov is our teams programming unit, he did all of the web-development, using many different tools such as (умные слова про сайт), as well as creating 3d model for our project</p>
+                            <p className="card-text">Mark Selikhov is our teams programming unit, he did all of the web-development, using many different tools such as React, Bootstrap , as well as creating 3d model for our project</p>
                         </div>
                     </div>
                     <div className="card">
@@ -44,7 +43,7 @@ export let About = (props) => {
                         <img src="https://i.imgur.com/mwj0Cor.png" id="contacts-img" className="card-img-top" alt=""/>
                         <div className="card-body">
                             <div className="card-title">Maksym Tsaruk || Leading developer</div>
-                            <p className="card-text"> Maxim Tsaruk is our teams leader and marketing agent, he's share of work consisted of creating work flow presentations and the advertisment video for the school, using such techniques as (умные слова о видосе)</p>
+                            <p className="card-text"> Maxim Tsaruk is our teams leader and marketing agent, he's share of work consisted of creating work flow presentations and the advertisment video for the school, using such techniques as audio and color processing plugins</p>
                         </div>
                     </div>
                 </div>

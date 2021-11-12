@@ -10,29 +10,32 @@ export const HomePage = (props) => {
     let products = [
         {
         productName: "School Flayer",
-        productPhoto: "https://i.imgur.com/NPf03CF.jpg",
+        productPhoto: "https://i.imgur.com/Q1sCfjG.jpg",
         productDesc: "Advertising flyer for schools Open doors day created according to commission during the practice week. All the grafics and rendering are made using adobe Photoshop, the text is made using Adobe illustrator",
-            cardImg: "https://i.imgur.com/14rlaPj.mp4",
+            cardImg: "https://i.imgur.com/imnoEI8.jpg",
             cardDesk: 'Advertising flyer for schools Open doors day created according to commission during the practice week. All the grafics and rendering are made using adobe Photoshop, the text is made using Adobe illustrator',
-            cost: "1000 grn"
+            cost: "1000 grn",
+            link: "https://i.imgur.com/Q1sCfjG.jpg"
     },
         {
-            productName: "School Business Card Description",
-            productPhoto: "https://i.imgur.com/7AhC6GN.jpg",
+            productName: "School Business Card",
+            productPhoto: "https://i.imgur.com/PiN3srw.jpg",
             productDesc: "Double-sided business card for SSOŠP Senica School created according to commission during the practice week.\n" +
                 "All the grafics and rendering are made using adobe Photoshop, the text is made using Adobe illustrator",
-            cardImg: "https://i.imgur.com/14rlaPj.mp4",
+            cardImg: "https://i.imgur.com/TLc8a7b.jpg",
             cardDesk: 'Double-sided business card for SSOŠP Senica School created according to commission during the practice week.\n' +
-                'All the grafics and rendering are made using adobe Photoshop, the text is made using Adobe illustrator',
-            cost: "750 grn"
+                'All the grafics and rendering are made us  ing adobe Photoshop, the text is made using Adobe illustrator',
+            cost: "750 grn",
+            link: "https://i.imgur.com/PiN3srw.jpg"
         },
         {
             productName: "3D Model",
             productPhoto: "https://i.imgur.com/UDq5eUX.png",
             productDesc: "ruller's 3d model created according to commission during the practice week using oneshape to bee given away as a souvenir for people attending \"Open doors day\" at SSOŠP Senica",
-            cardImg: "https://i.imgur.com/14rlaPj.mp4",
+            cardImg: "https://i.imgur.com/UDq5eUX.png",
             cardDesk: 'ruller\'s 3d model created according to commission during the practice week using oneshape to bee given away as a souvenir for people attending "Open doors day" at SSOŠP Senica',
-            cost: "340 grn"
+            cost: "340 grn",
+            link: "https://cad.onshape.com/documents/9ba1787156a8164c29cb87f7/w/05cfca05a439cf1e695e578b/e/006a3db594fb1520c7d099c6"
         },
         ]
 
@@ -53,7 +56,7 @@ export const HomePage = (props) => {
                         </div>
                     </div>
                     <div className="homepage-skeleton-block">
-                        <img className="homepage-skeleton-img" src='https://i.imgur.com/INEL8nY.png'/>
+                        <img className="homepage-skeleton-img" src='https://i.imgur.com/3OKVLib.png'/>
                     </div>
                 </div>
                 <div className="art-cards-wrapper">
