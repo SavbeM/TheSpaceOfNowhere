@@ -17,7 +17,7 @@ export const Card = (props) => {
             <div className="card">
                 <a href={props.item.link}>
                     <div className="card-img-block">
-                        <img  src={props.item.cardImg} className="card-img-top"/>
+                        <img src={props.item.cardImg} className="card-img-top"/>
                     </div>
                 </a>
                 <div className="card-body">
@@ -28,7 +28,8 @@ export const Card = (props) => {
                 </button>
             </div>
 
-            <Modal show={show} onHide={handleClose}>
+
+            <Modal show={show} onHide={handleClose }>
                 <Modal.Body>
                     <CloseButton onClick={handleClose}/>
                     <div className="card-body">
@@ -41,7 +42,7 @@ export const Card = (props) => {
                             <div className="cost">
                                 {props.item.cost}
                             </div>
-                            <Button variant="success">Buy</Button>{' '}
+                            <Button variant="success">Buy</Button>
                         </div>
                     </div>
                 </Modal.Body>

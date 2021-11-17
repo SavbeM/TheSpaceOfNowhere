@@ -1,54 +1,53 @@
 import React from "react";
 import "./NavBar.css"
 import {Link} from "react-router-dom";
-import { FiSearch } from 'react-icons/fi';
-
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
+import {Form, Nav } from "react-bootstrap";
+import {Offcanvas} from "react-bootstrap";
+import {FormControl} from "react-bootstrap";
+import {Navbar} from "react-bootstrap";
+import {HomePage} from "../HomePage/HomePage";
 
 
 export let NavBar = (props) => {
 
-    let docWidth = window.width
 
     return (
-        <div className="nav-bar">
-            <nav className="navbar navbar-dark bg-dark">
-                <div className="container-fluid">
-                    <div className="nav-search-button">
-                        <nav className="navbar navbar-dark bg-dark">
-                            <div className="container-fluid">
-                                <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#navbarToggleExternalContent"
-                                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
-                                        aria-label="Toggle navigation">
-                                    <FiSearch size={32} />
-                                </button>
-                            </div>
-                        </nav>
-                        <div className="search-bar">
-                            <div className="collapse" id="navbarToggleExternalContent">
-                                <form className="d-flex">
-                                    <input className="form-control me-2" type="search" placeholder="Search"
-                                           aria-label="Search"/>
-                                    <button className="btn btn-light" type="submit">Search</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='navbar-logo'>
-                        <img className="logo-navigation" src="https://i.imgur.com/esaMyUF.png"/>
-                    </div>
-                    <div className="navbar-links">
-                            <ul className="nav nav-pills">
-                                <Link className="nav-link" to="/homepage">Home </Link>
-                                <Link className="nav-link" to="/contacts">Contacts</Link>
-                                <Link className="nav-link" to="/about">About</Link>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        <Navbar bg="dark" expand={false}>
+            <Container fluid>
+                <Navbar.Brand color="light">The Space Of Nowhere</Navbar.Brand>
+                <Navbar.Toggle aria-controls="offcanvasNavbar"/>
+                <Navbar.Offcanvas
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel"
+                    placement="end"
+                >
+                    <Offcanvas.Header closeButton>
+                        <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                            <Link to="/">HOME</Link>
+                            <Link to="/contacts">CODING</Link>
+                            <Link to="/about">GUITAR</Link>
+                            <div id="indicator"></div>
+                        </Nav>
+                        <Form className="d-flex">
+                            <FormControl
+                                type="search"
+                                placeholder="Search"
+                                className="me-2"
+                                aria-label="Search"
+                            />
+                            <Button variant="outline-success">Search</Button>
+                        </Form>
+                    </Offcanvas.Body>
+                </Navbar.Offcanvas>
+            </Container>
+        </Navbar>
 
-    );
+    )
 }
 
 

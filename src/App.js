@@ -14,15 +14,13 @@ import {Contacts} from "./components/Contacts/Contacts";
 let App = () => {
     return (
         <BrowserRouter>
-            <div>
                 <NavBar/>
                 <Routes>
-                    <Route path="homepage" element={<HomePage />} />
+                    <Route path="" element={<HomePage />} />
                     <Route path="about" element={<About />} />
                     <Route path="contacts" element={<Contacts />} />
                 </Routes>
             <Footer />
-            </div>
         </BrowserRouter>
     );
 }

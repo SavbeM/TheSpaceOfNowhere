@@ -23,6 +23,8 @@
     -webkit-box-shadow: 11px -6px 15px 11px #1C597E;
     box-shadow: 11px -6px 15px 11px #1C597E;
     transition: 0.3s linear;
+    z-index: 99999;
+    background-color: #fff;
 }
 
 
