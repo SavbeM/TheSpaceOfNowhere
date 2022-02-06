@@ -7,7 +7,7 @@ import {Form, Nav } from "react-bootstrap";
 import {Offcanvas} from "react-bootstrap";
 import {FormControl} from "react-bootstrap";
 import {Navbar} from "react-bootstrap";
-import {HomePage} from "../HomePage/HomePage";
+
 
 
 export let NavBar = (props) => {
@@ -16,7 +16,7 @@ export let NavBar = (props) => {
     return (
         <Navbar bg="dark" expand={false}>
             <Container fluid>
-                <Navbar.Brand color="light">The Space Of Nowhere</Navbar.Brand>
+                <Navbar.Brand color="white">The Space Of Nowhere</Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar"/>
                 <Navbar.Offcanvas
                     id="offcanvasNavbar"
@@ -29,8 +29,8 @@ export let NavBar = (props) => {
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                             <Link to="/">HOME</Link>
-                            <Link to="/contacts">CODING</Link>
-                            <Link to="/about">GUITAR</Link>
+                            <Link to="/contacts">CONTACTS</Link>
+                            <Link to="/about">ABOUT</Link>
                             <div id="indicator"></div>
                         </Nav>
                         <Form className="d-flex">

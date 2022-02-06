@@ -109,7 +109,7 @@ export const HomePage = (props) => {
                     </div>
                     <div className="video-desc">
                         Advertisment Video
-                        текст макса
+
                     </div>
                 </div>
             </div>
